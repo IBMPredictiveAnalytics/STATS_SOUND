@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS SOUND Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS SOUND Extension Command</h1>
+
+<p>Play the selected sound </p>
+<div class="syntax">
+<p>STATS SOUND<br/>
+TYPE = DEFAULT<sup>&#42;</sup> or EXCLAMATION or ASTERISK or HAND or QUESTION<br/>
+FILE=&ldquo;sound file&rdquo;</p>
+
+<p>/HELP</p>
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>HELP displays this help and does nothing else</p>
+
+
+<pre class="example"><code>STATS SOUND TYPE=EXCLAMATION. 
+</code></pre>
+
+<p>This command is only available on Windows.</p>
+
+<p>Specify either <strong>TYPE</strong> or <strong>FILE</strong>.  If nothing is specified, the Windows Beep sound is produced.
+<strong>FILE</strong> must specify a wav file.</p>
+
+<p>Using <strong>TYPE</strong>, the sound played is whatever is associated with the selected sound according
+to the settings in the Windows Control Panel Sounds dialog.</p>
+
+<p>If both <strong>TYPE</strong> and <strong>FILE</strong> are specified, FILE is played first.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
