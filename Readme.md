@@ -1,11 +1,11 @@
 # STATS SOUND
-## Play Selected Sound
- This command, which is only available for Microsoft Windo
+## Play selected sound
+ This command, which is only available for Microsoft Windows, plays the specified sound or sound file.  It can be useful when a long running job needs an audible notification at a selected point.  The specific sound definitions are defined in the Windows Control Panel.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 18 or later
+- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for Python.
 
 ---
 Installation intructions
