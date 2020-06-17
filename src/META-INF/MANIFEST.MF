@@ -2,7 +2,8 @@ Name: STATS SOUND
 Dialog-Specs: STATS_SOUND.spd
 Command-Specs: STATS_SOUND.xml
 Code-Files: STATS_SOUND.py
-Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Misc-Files: extsyntax.css,Readme.md,IBMdialogicon.png,LICENSE,markdown
+ .html,default.png
 Summary: Play Selected Sound
 Description: This command, which is only available for Microsoft Windo
  ws, plays the specified sound or sound file.  It can be useful when a
@@ -10,8 +11,10 @@ Description: This command, which is only available for Microsoft Windo
   The specific sound definitions are defined in the Windows Control Pa
  nel
 Author: JKP, IBM SPSS
-Version: 1.0.4
-Product-Version: 18
+Version: 2.0.4
+Product-Version: 24
 Date: 4/9/2012
+Product-Version-Maximum: 99
 Plugins: Python
+Python-Version: 3
 Translation-Catalogues: lang
