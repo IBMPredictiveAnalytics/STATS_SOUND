@@ -1,4 +1,5 @@
 Name: STATS SOUND
+Display-Name: Play a Sound
 Dialog-Specs: STATS_SOUND.spd
 Command-Specs: STATS_SOUND.xml
 Code-Files: STATS_SOUND.py
